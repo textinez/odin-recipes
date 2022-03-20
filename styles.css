@@ -1,0 +1,69 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: #D9593D;  
+    background-color: #F2A03D;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+  }
+
+.title-container {
+  background-image: url('https://media.istockphoto.com/photos/wood-table-on-blur-cafe-background-picture-id862433484?k=20&m=862433484&s=612x612&w=0&h=kefXKGWNsLinMbwuG49HVO02EkQOt8s-VPaqp70q2LQ=');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: auto;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+
+.title-over {
+  margin: auto;
+
+  width: 100%;
+}
+
+.recipe-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .recipe-trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+  }
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #9B4997;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  ol {
+      text-align: left; 
+  }
+
+  ul {
+    list-style-type: none;
+  }
